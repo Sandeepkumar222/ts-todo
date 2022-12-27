@@ -1,0 +1,15 @@
+{
+  "name": "ts-todo-app",
+  "version": "1.0.0",
+  "description": "todo application with TS as frontend, Node as backend and mySQL as DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ts-todo-backend/index.js"
+  },
+  "author": "Sandeep",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
