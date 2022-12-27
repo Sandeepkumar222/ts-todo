@@ -11,5 +11,5 @@ app.get("/api",(res,req)=>{
 const PORT = 4040;
 
 const server = app.listen(PORT, ()=>{
-    console.log(`Server is running on ${PORT}`)
+    console.log(`Server is running succesfully on ${PORT}`)
 })
